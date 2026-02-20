@@ -4,6 +4,21 @@ body {
   height: 100vh;
 }
 
+main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 30px;
+}
+
+main > aside {
+  border: 2px solid #69BF88;
+  height: 40vh;
+  padding: 1em;
+  font-size: 25px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
 body > header {
   background: linear-gradient(#59AC77, #69BF88, #97D3AD);
   display: flex;
@@ -12,7 +27,6 @@ body > header {
   gap: 10px;
   margin-bottom: 30px;
   border: 1px solid dimgrey;
-  border-radius: 25px;
   position: sticky;
   top: -1px;
 }
@@ -28,12 +42,14 @@ hgroup > h1 {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: auto;
+  margin-top: 9px;
 }
 
 hgroup > p {
   font-size: 32px;
   font-weight: 400;
   margin-bottom: auto;
+  margin-top: 2px;
 }
 
 header nav {
@@ -62,8 +78,7 @@ li:hover {
 }
 
 main article {
-  width: 70%;
-  margin: auto;
+  width: 60%;
 }
 
 article header {
@@ -147,11 +162,10 @@ article footer {
 
 article footer address {
   margin-top: 3px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 body > footer {
-  position: sticky;
   bottom: -1px;
   margin-top: 20px;
   font-size: 22px;
