@@ -64,11 +64,11 @@ main article {
 
 article header {
   padding-bottom: .6em;
-  border-bottom: 2px solid #69BF88;
+  border-bottom: 3px solid #69BF88;
 }
 
 article h2 {
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
@@ -79,7 +79,7 @@ article header p {
 }
 
 article section {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 article section h3{
@@ -119,11 +119,35 @@ article section details summary {
   padding: .4em;
 }
 
-article section aside {
-  width: 40%;
-  float: right;
+article section mark {
+  background: #69BF88;
+  border-radius: 3px;
+  padding: .1em;
+}
+
+article aside {
+  font-size: 32px;
   border-left: 2px solid grey;
   padding-left: .8em;
   box-shadow: inset 5px 0 5px -5px #59AC77;
-  margin-top: 10px;
+}
+
+article footer {
+  width: 50%;
+  margin-top: 30px;
+  border: 2px solid #69BF88;
+  border-radius: 4px;
+  padding: .8em;
+}
+
+article footer address {
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+body > footer {
+  margin-top: 20px;
+  font-size: 22px;
+  background: linear-gradient(#59AC77, #69BF88, #97D3AD);
+  padding: .6em;
 }
