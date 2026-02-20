@@ -129,14 +129,18 @@ figcaption {
 }
 
 article section details {
-  padding: .6em;
+  border: 2px solid #69BF88;
   font-size: 32px;
-  background: #69BF88;
   border-radius: 6px;
 }
 
+article section details span {
+  padding: 1em;
+}
+
 article section details summary {
-  padding: .4em;
+  background: #69BF88;
+  padding: 0.4em;
 }
 
 article section mark {
