@@ -5,11 +5,12 @@ body {
 }
 
 body > header {
-  background: linear-gradient(120deg,rgba(95, 155, 42, 1) 0%, rgba(87, 199, 133, 1) 26%, rgba(237, 221, 83, 1) 100%);
+  background: linear-gradient(#59AC77, #69BF88, #97D3AD);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  z-index: 1;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 header > hgroup {
@@ -54,4 +55,75 @@ li:hover {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+main article {
+  width: 70%;
+  margin: auto;
+}
+
+article header {
+  padding-bottom: .6em;
+  border-bottom: 2px solid #69BF88;
+}
+
+article h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+article header p {
+  font-size: 21px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+article section {
+  margin-bottom: 80px;
+}
+
+article section h3{
+  font-size: 35px;
+}
+
+article section p {
+  font-size: 32px;
+}
+
+article section figure {
+  border: 2px solid #69BF88;
+  padding: 2em;
+  border-radius: 6px;
+}
+
+article section figure img {
+  width: 100%;
+  padding-bottom: .8em;
+}
+
+figcaption {
+  padding-top: .3em;
+  border-top: 1px solid grey;
+  font-size: 32px;
+  text-align: center;
+}
+
+article section details {
+  padding: .6em;
+  font-size: 32px;
+  background: #69BF88;
+  border-radius: 6px;
+}
+
+article section details summary {
+  padding: .4em;
+}
+
+article section aside {
+  width: 40%;
+  float: right;
+  border-left: 2px solid grey;
+  padding-left: .8em;
+  box-shadow: inset 5px 0 5px -5px #59AC77;
+  margin-top: 10px;
 }
