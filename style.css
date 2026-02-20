@@ -1,12 +1,15 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: auto;
+  height: 100vh;
 }
 
 body > header {
-  background-color: greenyellow;
+  background: linear-gradient(120deg,rgba(95, 155, 42, 1) 0%, rgba(87, 199, 133, 1) 26%, rgba(237, 221, 83, 1) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 
 header > hgroup {
@@ -14,8 +17,6 @@ header > hgroup {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0px;
-  border-bottom: 2px solid gray;
 }
 
 hgroup > h1 {
@@ -27,11 +28,14 @@ hgroup > h1 {
 hgroup > p {
   font-size: 32px;
   font-weight: 400;
+  margin-bottom: auto;
 }
 
 header nav {
+  position: sticky;
+  top: 0px;
   width: 100%;
-  color: black;
+  height: 10%;
 }
 
 nav ul {
@@ -41,10 +45,9 @@ nav ul {
 }
 
 li {
-  border: 1px solid grey;
   padding: .6em;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 li:hover {
