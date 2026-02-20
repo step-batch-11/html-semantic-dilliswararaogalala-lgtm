@@ -11,6 +11,10 @@ body > header {
   justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
+  border: 1px solid dimgrey;
+  border-radius: 25px;
+  position: sticky;
+  top: -1px;
 }
 
 header > hgroup {
@@ -94,6 +98,7 @@ article section figure {
   border: 2px solid #69BF88;
   padding: 2em;
   border-radius: 6px;
+  margin: 20px 0px;
 }
 
 article section figure img {
@@ -146,8 +151,19 @@ article footer address {
 }
 
 body > footer {
+  position: sticky;
+  bottom: -1px;
   margin-top: 20px;
   font-size: 22px;
   background: linear-gradient(#59AC77, #69BF88, #97D3AD);
   padding: .6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+dialog {
+  position: relative;
+  background: linear-gradient(#59AC77, #69BF88, #97D3AD);
+  border-radius: 4px;
 }
